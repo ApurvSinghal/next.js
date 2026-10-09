@@ -114,7 +114,7 @@ chromiumoxide = { version = "0.5.4", features = [
 ], default-features = false }
 # For matching on errors from chromiumoxide. Keep in
 # sync with chromiumoxide's tungstenite requirement.
-tungstenite = "0.20.1"
+tungstenite = "0.21.0"
 
 # flate2_zlib requires zlib, use flate2_rust
 allsorts = { version = "0.14.0", default-features = false, features = [
@@ -186,7 +186,7 @@ serde_json = "1.0.93"
 serde_bytes = "0.11.15"
 serde_path_to_error = "0.1.9"
 serde_qs = "0.11.0"
-serde_with = "2.3.2"
+serde_with = "3.12.0"
 serde_yaml = "0.9.17"
 shadow-rs = { version = "0.23.0", default-features = false, features = [
   "tzdb",
